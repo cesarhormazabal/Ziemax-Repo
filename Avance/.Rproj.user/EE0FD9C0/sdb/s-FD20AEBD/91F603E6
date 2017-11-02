@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1509651048587.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "91F603E6",
+    "lastKnownWriteTime" : 5716298616261529417,
+    "last_content_update" : 1509651048587,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "CB9443E0",
+        "caption" : "valores_servicios",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=valores_servicios&cache_key=CB9443E0",
+        "displayedObservations" : 1159,
+        "environment" : "",
+        "object" : "valores_servicios",
+        "preview" : 0,
+        "totalObservations" : 1159,
+        "variables" : 3
+    },
+    "relative_order" : 12,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1509646945723.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7526113F",
+    "lastKnownWriteTime" : 18859025310417007,
+    "last_content_update" : 1509646945723,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "EC93D8DD",
+        "caption" : "Accesibilidad",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Accesibilidad&cache_key=EC93D8DD",
+        "displayedObservations" : 346,
+        "environment" : "",
+        "object" : "Accesibilidad",
+        "preview" : 0,
+        "totalObservations" : 346,
+        "variables" : 8
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

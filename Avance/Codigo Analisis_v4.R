@@ -7,7 +7,7 @@ source("Funciones.R")
 
 read_excel("Accesibilidad.xls")%>% 
   mutate(COMUNA=toupper(COMUNA))%>%
-  mutate(COMUNA=chartr("ÁÉÍÓÚ","AEIOU",COMUNA))->Accesibilidad
+  mutate(COMUNA=chartr("ÁÉÍÓÚ","AEIOU",COMUNA))->Accesibilidad;View(Accesibilidad)
 
 read_csv("UbicacionGeografica2016.csv")%>%filter(ENS_01==110 | ENS_01==310 |
                                                    ENS_02==110 | ENS_02==310 |
@@ -30,7 +30,7 @@ read_csv("UbicacionGeografica2016.csv")%>%filter(ENS_01==110 | ENS_01==310 |
          LATITUD,LONGITUD,
          ORI_RELIGIOSA,PAGO_MATRICULA,
          PAGO_MENSUAL,GRADO_ACCESIBILIDAD,
-         NOMBRE_ACCESIBILIDAD,NECESIDAD_AVION)->UbicacionGeografica2016
+         NOMBRE_ACCESIBILIDAD,NECESIDAD_AVION)->UbicacionGeografica2016;View(UbicacionGeografica2016)
 
 Colegios_Puntaje_2012 <-
   read_excel("Colegios.xls", sheet = "SIMCE IIM 2012 Leng")
@@ -58,9 +58,9 @@ read_excel("VistaresumenprioritariospreferentesybeneficiariosSEPporEE2016.xlsx")
       1.4115 * 25385 * as.numeric(N_BEN),
       0.70575 * 25385 * as.numeric(N_BEN)
     )
-  ) %>% select(RBD, N_BEN, monto) -> Colegios_Ley_SEP;
+  ) %>% select(RBD, N_BEN, monto) -> Colegios_Ley_SEP;View(Colegios_Ley_SEP)
 
-Dim_Servicios <- read_excel("C:/Users/Stef/Desktop/Proyectos/ZIEMAX/Proyecto Ziemax 2/Data_Ejemplo.xlsx", 
+Dim_Servicios <- read_excel("Data_Ejemplo.xlsx", 
                             sheet = "DIM Servicios", col_types = c("text", 
                                                                    "text", "numeric", "numeric", "numeric", 
                                                                    "numeric", "numeric", "numeric", 
@@ -75,7 +75,7 @@ colnames(Dim_Servicios) <-
     "COSTO_ZIE_HH_INFOR","COSTO_ZIE_HH","EXPERTISE2","COSTO_EXP_ZIEMAX","LIMITE_CANTIDAD",
     "EXPERTISE_INFOR")
 
-Dim_asesor <- read_excel("C:/Users/Stef/Desktop/Proyectos/ZIEMAX/Proyecto Ziemax 2/Data_Ejemplo.xlsx", 
+Dim_asesor <- read_excel("Data_Ejemplo.xlsx", 
                          sheet = "Dim Asesor", col_types = c("numeric", 
                                                              "numeric", "numeric", "text", "numeric", 
                                                              "numeric"))
@@ -165,12 +165,12 @@ UbicacionGeografica2016%>%
            RED_DE_ESCUELAS_LIDERES,      # COLEGIOS LIDERES
            Grupo,                        # RED COLEGIOS
            NUMERO_BENEFICIADOS,MONTO_SEP # COLEGIOS LEY SEP
-           )->Ubicacion_Actualizada; #View(Ubicacion_Actualizada)
+           )->Ubicacion_Actualizada; View(Ubicacion_Actualizada)
 
 names(Ubicacion_Actualizada)%>%toupper()->names_data;
 gsub(" ", "",chartr("ÁÉÍÓÚ","AEIOU",names_data) ,fixed = TRUE)->names(Ubicacion_Actualizada)
 
-
+#View(Ubicacion_Actualizada)
 ############## Generación de variables agrupadas ####################
 
 ungroup(Ubicacion_Actualizada)->Ubicacion_Actualizada
@@ -202,15 +202,6 @@ Ubicacion_Actualizada%>%
 Ubicacion_Actualizada%>%
   left_join(filter(Mat_Comuna,!is.na(Matricula_Comuna)),by="NOM_COM_RBD")%>%
   left_join(Mat_Grupo,by="GRUPO")->Ubicacion_Actualizada;
-Ubicacion_Actualizada%>%View()    
-
-#### Agregar Grado Accesibilidad y necesidad de avion
-
-### Agregar Colegios ley  SEP
-
-Ubicacion_Actualizada%>%
-  left_join(Colegios_Ley_SEP,by="RBD")%>%View()  
-  # left_join(Mat_Grupo,by="Grupo")->Ubicacion_Actualizada;
 Ubicacion_Actualizada%>%View()    
 
 ########################## Selección de variables a utilizar ###################################
@@ -269,22 +260,18 @@ summary(Ubicacion_Actualizada$NOMBRE_ACCESIBILIDAD)
 
 
 
-length(Ubicacion_Actualizada_TMP$RBD)
-summary(Ubicacion_Actualizada_TMP)
+#length(Ubicacion_Actualizada_TMP$RBD)
+#summary(Ubicacion_Actualizada_TMP)
 
 ############################# Creacion Primeros Cluster de Servicios ##############
-?kmeans()
-Ubicacion_Actualizada$NOMBRE_ACCESIBILIDAD<-as.numeric(Ubicacion_Actualizada$PAGO_MATRICULA)
+#?kmeans()
 Ubicacion_Actualizada$DEPENDENCIA<-as.factor(Ubicacion_Actualizada$DEPENDENCIA)
-
+#View(Ubicacion_Actualizada)
 
 set.seed(20)
 kmeans_Colegios<- kmeans(scale(Ubicacion_Actualizada[, c("Matricula_Grupo","MAT_TOTAL","MONTO_SEP","NUMERO_BENEFICIADOS")]),5,nstart = 20)
 Ubicacion_Actualizada$cluster <-factor(kmeans_Colegios$cluster)
 
-
-summary(filter(Ubicacion_Actualizada$NOMBRE_ACCESIBILIDAD,cluster==1))
-kmeans_Colegios$size
 write.csv(Ubicacion_Actualizada,"Ubicacion_Actualizada.csv")
 
 ggplot(Ubicacion_Actualizada, aes(x = MAT_TOTAL, y = Matricula_Grupo)) +
@@ -311,10 +298,7 @@ ggplot(Ubicacion_Actualizada, aes(x = MAT_TOTAL, y = Matricula_Grupo)) +
                                 "#013ADF"))
 
 
-################## Creación primeros grupos de servicio ############
-
-
-
+################## Creación Grupos de Colegios ############
 
 
 Ubicacion_Actualizada %>% mutate(PAGO_COLEGIO = (PAGO_MENSUAL_2 * 10 + PAGO_MATRICULA_2) *
@@ -367,7 +351,7 @@ write.csv(GRUPOS_COLEGIOS,"GRUPOS_COLEGIOS.csv")
 write.csv(valores_servicios,"valores_servicios.csv")
 
 ####### Cruce para obtener grupos ##################################
-
+View(GRUPOS_COLEGIOS)
 for(j in 1:nrow(GRUPOS_COLEGIOS))
 {
 GRUPOS_COLEGIOS$CodGrupo[j] <-paste(as.character(GRUPOS_COLEGIOS$cluster)[j],GRUPOS_COLEGIOS$NOMBRE_ACCESIBILIDAD[j],
@@ -387,6 +371,11 @@ Ubicacion_Actualizada$CodGrupo[j] <-paste(as.character(Ubicacion_Actualizada$clu
 Ubicacion_Actualizada%>%left_join(GRUPOS_COLEGIOS,by="CodGrupo")->Entregable_Colegio_Grupos
 
 write.csv(Entregable_Colegio_Grupos,"Entregable_Colegio_Grupos.csv")
+
+################ Creación de Grupos de Servicios #############
+
+
+
 
 
 

@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1509646979503.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B18A1E29",
+    "lastKnownWriteTime" : 18859025310417007,
+    "last_content_update" : 1509646979503,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "930422AB",
+        "caption" : "UbicacionGeografica2016",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=UbicacionGeografica2016&cache_key=930422AB",
+        "displayedObservations" : 8700,
+        "environment" : "",
+        "object" : "UbicacionGeografica2016",
+        "preview" : 0,
+        "totalObservations" : 8700,
+        "variables" : 20
+    },
+    "relative_order" : 12,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,62 +1,62 @@
 "","cluster","NOMBRE_ACCESIBILIDAD","RED_DE_ESCUELAS_LIDERES","DEPENDENCIA","Monto_Escuela","MATRICULA_TOTAL","MONTO_ALUMNO","N_TOTAL_COLEGIOS"
-"1","1","Accesible",0,"Particular Pagado",16977675000,15659,1084211.95478638,35
-"2","1","Accesible",0,"Particular Subvencionado",2738290973.14375,10792,253733.4111512,37
-"3","1","Medianamente",0,"Particular Pagado",10144837500,9359,1083965.96858639,22
-"4","1","Medianamente",0,"Particular Subvencionado",1445673944.5175,8009,180506.173619366,32
-"5","1","No Accesible",0,"Particular Pagado",16500082500,15120,1091275.29761905,38
-"6","1","No Accesible",0,"Particular Subvencionado",1929872197.8825,9583,201384.973169415,36
-"7","2","Accesible",0,"Administración Delegada",224005000,8459,26481.2625605864,10
-"8","2","Accesible",0,"Municipal",6843707.1525,1081,6330.90393385754,1
-"9","2","Accesible",0,"Particular Pagado",73944610000,67459,1096141.50817534,61
-"10","2","Accesible",0,"Particular Subvencionado",60728452668.3412,122358,496317.794245912,120
-"11","2","Medianamente",0,"Administración Delegada",90685000,5028,18035.9984089101,6
-"12","2","Medianamente",0,"Municipal",741264849.3475,3392,218533.269265183,3
-"13","2","Medianamente",0,"Particular Pagado",63852610000,59940,1065275.44210878,55
-"14","2","Medianamente",0,"Particular Subvencionado",71288851871.6712,139285,511820.02277109,117
-"15","2","Medianamente",1,"Particular Subvencionado",241125000,643,375000,1
-"16","2","No Accesible",0,"Administración Delegada",148250000,10354,14318.137917713,12
-"17","2","No Accesible",0,"Municipal",0,1782,0,1
-"18","2","No Accesible",0,"Particular Pagado",62274505000,57398,1084959.49336214,54
-"19","2","No Accesible",0,"Particular Subvencionado",81502179449.7425,139215,585441.07639078,128
-"20","3","Accesible",0,"Municipal",4258810078.9175,205662,20707.8122303464,405
-"21","3","Accesible",0,"Particular Subvencionado",27314007783.745,185242,147450.4042482,301
-"22","3","Accesible",1,"Municipal",121874520.59625,5725,21288.1258683406,8
-"23","3","Accesible",1,"Particular Subvencionado",52743125.28,2314,22793.053275713,4
-"24","3","Medianamente",0,"Municipal",4774054810.3475,218282,21871.0420939312,430
-"25","3","Medianamente",0,"Particular Subvencionado",27318818882.1263,179680,152041.512033205,294
-"26","3","Medianamente",1,"Municipal",136607202.86375,5478,24937.4229397134,10
-"27","3","Medianamente",1,"Particular Subvencionado",528643745.57875,5039,104910.447624281,6
-"28","3","No Accesible",0,"Municipal",4731702062.4125,228512,20706.5802339155,438
-"29","3","No Accesible",0,"Particular Subvencionado",26502640767.6213,167494,158230.388954955,276
-"30","3","No Accesible",1,"Municipal",99323331.03,5083,19540.2972712965,10
-"31","3","No Accesible",1,"Particular Subvencionado",530813395.47875,2273,233529.870426199,4
-"32","4","Accesible",0,"Administración Delegada",23125000,1591,14534.8837209302,4
-"33","4","Accesible",0,"Municipal",1600824334.885,95454,16770.6364833847,1118
-"34","4","Accesible",0,"Particular Pagado",17501012500,18401,951090.294005761,68
-"35","4","Accesible",0,"Particular Subvencionado",28175338029.1213,100755,279642.082567825,572
-"36","4","Accesible",1,"Municipal",6109173.13875,366,16691.7298872951,5
-"37","4","Accesible",1,"Particular Subvencionado",1809461.83875,199,9092.77305904522,1
-"38","4","Medianamente",0,"Administración Delegada",58080000,3548,16369.785794814,8
-"39","4","Medianamente",0,"Municipal",1604143562.6125,95593,16780.9731111326,1101
-"40","4","Medianamente",0,"Particular Pagado",18719300000,18870,992013.778484367,55
-"41","4","Medianamente",0,"Particular Subvencionado",26643171300.6838,113315,235124.840494937,608
-"42","4","Medianamente",1,"Municipal",8957731.875,531,16869.5515536723,4
-"43","4","Medianamente",1,"Particular Subvencionado",3780162.85125,216,17500.7539409722,1
-"44","4","No Accesible",0,"Administración Delegada",4740000,2862,1656.18448637317,7
-"45","4","No Accesible",0,"Municipal",1698256248.54,98529,17236.1055987577,1101
-"46","4","No Accesible",0,"Particular Pagado",16020112500,15542,1030762.61098958,57
-"47","4","No Accesible",0,"Particular Subvencionado",28982548349.945,111545,259828.305616074,605
-"48","4","No Accesible",1,"Municipal",17969210.14125,1116,16101.4427788978,7
-"49","4","No Accesible",1,"Particular Subvencionado",8814408.165,779,11315.0297368421,4
-"50","5","Accesible",0,"Municipal",1400214930.27375,56522,24772.9190452169,48
-"51","5","Accesible",0,"Particular Subvencionado",14579870035.4,123433,118119.708954656,91
-"52","5","Accesible",1,"Municipal",74886638.475,2864,26147.5692999302,3
-"53","5","Accesible",1,"Particular Subvencionado",801219586.2675,12584,63669.7064738954,8
-"54","5","Medianamente",0,"Municipal",1684349827.1975,64429,26142.7280758277,51
-"55","5","Medianamente",0,"Particular Subvencionado",17526435252.0275,127349,137625.228718149,88
-"56","5","Medianamente",1,"Municipal",76173617.9,3669,20761.4112564732,3
-"57","5","Medianamente",1,"Particular Subvencionado",167670825.23625,6491,25831.2779596749,5
-"58","5","No Accesible",0,"Municipal",1078910196.8125,46426,23239.3528801211,41
-"59","5","No Accesible",0,"Particular Subvencionado",7981775370.95875,94322,84622.6264387815,74
-"60","5","No Accesible",1,"Municipal",99896625.87,3088,32349.9436107513,3
-"61","5","No Accesible",1,"Particular Subvencionado",667516679.1375,4958,134634.263642094,4
+"1","1","Accesible",0,"Municipal",1322372240.28,51492,25681.1201794454,43
+"2","1","Accesible",0,"Particular Subvencionado",14295903632.3575,117605,121558.638088155,85
+"3","1","Accesible",1,"Municipal",74886638.475,2864,26147.5692999302,3
+"4","1","Accesible",1,"Particular Subvencionado",801219586.2675,12584,63669.7064738954,8
+"5","1","Medianamente",0,"Municipal",1572951473.6,60364,26057.7740640117,46
+"6","1","Medianamente",0,"Particular Subvencionado",17486806246.2125,125554,139277.173536586,86
+"7","1","Medianamente",1,"Municipal",76173617.9,3669,20761.4112564732,3
+"8","1","Medianamente",1,"Particular Subvencionado",143269963.60875,5753,24903.5222681644,4
+"9","1","No Accesible",0,"Municipal",986950121.38375,41615,23716.2110148684,36
+"10","1","No Accesible",0,"Particular Subvencionado",7364004471.31125,86588,85046.4783955196,66
+"11","1","No Accesible",1,"Municipal",99896625.87,3088,32349.9436107513,3
+"12","1","No Accesible",1,"Particular Subvencionado",667516679.1375,4958,134634.263642094,4
+"13","2","Accesible",0,"Municipal",4266015740.69125,206556,20653.0710349312,397
+"14","2","Accesible",0,"Particular Subvencionado",27179668282.2612,186875,145443.040975311,294
+"15","2","Accesible",1,"Municipal",121874520.59625,5725,21288.1258683406,8
+"16","2","Accesible",1,"Particular Subvencionado",52743125.28,2314,22793.053275713,4
+"17","2","Medianamente",0,"Municipal",4794671239.00625,217202,22074.7103572078,418
+"18","2","Medianamente",0,"Particular Subvencionado",25051218444.5013,174475,143580.561366965,280
+"19","2","Medianamente",1,"Municipal",136607202.86375,5478,24937.4229397134,10
+"20","2","Medianamente",1,"Particular Subvencionado",553044607.20625,5777,95732.1459591916,7
+"21","2","No Accesible",0,"Municipal",4756192501.35875,230084,20671.5482230783,432
+"22","2","No Accesible",0,"Particular Subvencionado",26559162983.09,172417,154040.280152711,277
+"23","2","No Accesible",1,"Municipal",99323331.03,5083,19540.2972712965,10
+"24","2","No Accesible",1,"Particular Subvencionado",530813395.47875,2273,233529.870426199,4
+"25","3","Accesible",0,"Administración Delegada",23125000,1591,14534.8837209302,4
+"26","3","Accesible",0,"Municipal",1671461363.105,99590,16783.4256763229,1131
+"27","3","Accesible",0,"Particular Pagado",17501012500,18401,951090.294005761,68
+"28","3","Accesible",0,"Particular Subvencionado",28812313457.2925,106159,271407.167148263,586
+"29","3","Accesible",1,"Municipal",6109173.13875,366,16691.7298872951,5
+"30","3","Accesible",1,"Particular Subvencionado",1809461.83875,199,9092.77305904522,1
+"31","3","Medianamente",0,"Administración Delegada",58080000,3548,16369.785794814,8
+"32","3","Medianamente",0,"Municipal",1694925487.55125,100738,16825.0857427311,1118
+"33","3","Medianamente",0,"Particular Pagado",18719300000,18870,992013.778484367,55
+"34","3","Medianamente",0,"Particular Subvencionado",28232014674.1037,119292,236663.101248229,623
+"35","3","Medianamente",1,"Municipal",8957731.875,531,16869.5515536723,4
+"36","3","Medianamente",1,"Particular Subvencionado",3780162.85125,216,17500.7539409722,1
+"37","3","No Accesible",0,"Administración Delegada",4740000,2862,1656.18448637317,7
+"38","3","No Accesible",0,"Municipal",1765725885.0225,101768,17350.5019753017,1112
+"39","3","No Accesible",0,"Particular Pagado",16020112500,15542,1030762.61098958,57
+"40","3","No Accesible",0,"Particular Subvencionado",29543797034.1237,114356,258349.339204972,612
+"41","3","No Accesible",1,"Municipal",17969210.14125,1116,16101.4427788978,7
+"42","3","No Accesible",1,"Particular Subvencionado",8814408.165,779,11315.0297368421,4
+"43","4","Accesible",0,"Particular Pagado",16977675000,15659,1084211.95478638,35
+"44","4","Accesible",0,"Particular Subvencionado",2738290973.14375,10792,253733.4111512,37
+"45","4","Medianamente",0,"Particular Pagado",10144837500,9359,1083965.96858639,22
+"46","4","Medianamente",0,"Particular Subvencionado",1445673944.5175,8009,180506.173619366,32
+"47","4","No Accesible",0,"Particular Pagado",16500082500,15120,1091275.29761905,38
+"48","4","No Accesible",0,"Particular Subvencionado",1929872197.8825,9583,201384.973169415,36
+"49","5","Accesible",0,"Administración Delegada",224005000,8459,26481.2625605864,10
+"50","5","Accesible",0,"Municipal",6843707.1525,1081,6330.90393385754,1
+"51","5","Accesible",0,"Particular Pagado",73944610000,67459,1096141.50817534,61
+"52","5","Accesible",0,"Particular Subvencionado",60509783144.6963,121149,499465.807763137,119
+"53","5","Medianamente",0,"Administración Delegada",90685000,5028,18035.9984089101,6
+"54","5","Medianamente",0,"Municipal",741264849.3475,3392,218533.269265183,3
+"55","5","Medianamente",0,"Particular Pagado",63852610000,59940,1065275.44210878,55
+"56","5","Medianamente",0,"Particular Subvencionado",72007237941.6913,140308,513208.355487151,118
+"57","5","Medianamente",1,"Particular Subvencionado",241125000,643,375000,1
+"58","5","No Accesible",0,"Administración Delegada",148250000,10354,14318.137917713,12
+"59","5","No Accesible",0,"Municipal",0,1782,0,1
+"60","5","No Accesible",0,"Particular Pagado",62274505000,57398,1084959.49336214,54
+"61","5","No Accesible",0,"Particular Subvencionado",81502179449.7425,139215,585441.07639078,128
