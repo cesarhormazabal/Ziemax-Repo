@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "switch_R<-function(condiciones=TRUE,consecuencias=\"Ingrese Consecuencia\")\n{\n  \n  condiciones=as.vector(condiciones)\n  consecuencias=as.vector(consecuencias)\n  if(length(condiciones)+1==length(consecuencias))\n  {\n    for (i in 1:length(condiciones))\n    {\n      if(condiciones[i]==TRUE)\n      {\n        return(consecuencias[i])\n      }\n    }    \n  }\n  else\n  {return(FALSE)\n  }\n}\n\n\nswitch_R(condiciones=c(FALSE,FALSE,TRUE),consecuencias = c(1,2,3,4))\n",
+    "created" : 1508531898352.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "223642144",
+    "id" : "F2653E66",
+    "lastKnownWriteTime" : 1508532002,
+    "last_content_update" : 1508532002767,
+    "path" : "C:/Users/César/Desktop/Clientes/Ziemax/Avance/Funciones.R",
+    "project_path" : "Funciones.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

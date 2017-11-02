@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1508764448882.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "82D3226E",
+    "lastKnownWriteTime" : 7092930226379816962,
+    "last_content_update" : 1508764448882,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "28D66EC5",
+        "caption" : "Mat_Grupo",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Mat_Grupo&cache_key=28D66EC5",
+        "displayedObservations" : 3332,
+        "environment" : "",
+        "object" : "Mat_Grupo",
+        "preview" : 0,
+        "totalObservations" : 3332,
+        "variables" : 2
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

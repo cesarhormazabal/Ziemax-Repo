@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1508359348343.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2E31DF02",
+    "lastKnownWriteTime" : 5292976843906638626,
+    "last_content_update" : 1508359348343,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "8DAFB9C4",
+        "caption" : "Mat_Sostenedor",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Mat_Sostenedor&cache_key=8DAFB9C4",
+        "displayedObservations" : 6026,
+        "environment" : "",
+        "object" : "Mat_Sostenedor",
+        "preview" : 0,
+        "totalObservations" : 6026,
+        "variables" : 2
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

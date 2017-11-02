@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1508763649568.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "284ADC3F",
+    "lastKnownWriteTime" : 7308604914264011873,
+    "last_content_update" : 1508763649568,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "782D5D21",
+        "caption" : "Ubicacion_Actualizada",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Ubicacion_Actualizada&cache_key=782D5D21",
+        "displayedObservations" : 8700,
+        "environment" : "",
+        "object" : "Ubicacion_Actualizada",
+        "preview" : 0,
+        "totalObservations" : 8700,
+        "variables" : 24
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

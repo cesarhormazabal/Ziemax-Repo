@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1508530899535.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "ACAD21BB",
+    "lastKnownWriteTime" : 18859025310417007,
+    "last_content_update" : 1508530899535,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "2D8A9A92",
+        "caption" : "Colegios_Mat_Total",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Colegios_Mat_Total&cache_key=2D8A9A92",
+        "displayedObservations" : 15990,
+        "environment" : "",
+        "object" : "Colegios_Mat_Total",
+        "preview" : 0,
+        "totalObservations" : 15990,
+        "variables" : 4
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
